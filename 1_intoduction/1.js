@@ -5,7 +5,7 @@ console.log(a);
 a = 5;
 console.log(a);
 
-const b =  2;
+const b = 2;
 // b = 4;
 console.log(b);
 
