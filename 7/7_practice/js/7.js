@@ -46,4 +46,9 @@ button.addEventListener('click', changeColor)
 buttons.forEach(i => i.addEventListener('click', changeColor))
 
 
+const wrapper = document.querySelector('.wrapper');
 
+// обработчик на родителе, делегирование
+wrapper.addEventListener('click', (event) => {
+    
+})
