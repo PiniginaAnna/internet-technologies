@@ -114,9 +114,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
   setTimeout(showModal, 3000);
 
-  
 
+  const submitButton = document.querySelector('.btn.btn_dark.btn_min');
 
+  submitButton.addEventListener('click', () => {
+    alert('Данные успешно отправлены!')
+  })
   
 
 
